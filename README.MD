@@ -1,4 +1,4 @@
-                                  Problem Statement:
+## Problem Statement:
 
 
 Bike sharing systems are a new generation of traditional bike rentals where the whole
@@ -13,3 +13,24 @@ research.
 The goal here is to build an end-to-end regression task. Here the user will provide the
 data and the result will be given by the best performing hyper tuned Machine Learning
 model. The user will also get privileges to choose the deployment options.
+
+
+
+## Intall requirements
+    pip install -r requirements
+
+
+## Add CustomExcustion and logging
+
+
+
+### steps for project 
+
+1. update config.yaml
+2. update scheam.yaml
+3. update params.yaml
+4. update entity_config
+5. update configManager in src
+6. update components
+7. update pipeline
+8. update main.py
