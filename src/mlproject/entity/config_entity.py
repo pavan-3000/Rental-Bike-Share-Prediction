@@ -16,3 +16,8 @@ class DataValidationConfig:
     data_path: Path
     STATUS_INFO: str
     all_schema: list
+    
+@dataclass
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path

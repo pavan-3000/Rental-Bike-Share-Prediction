@@ -2,7 +2,7 @@ from src.mlproject.logger import logging
 from src.mlproject.exception import CustomException
 import sys
 
-from src.mlproject.entity.config_entity import DataIngestionConfig,DataValidationConfig
+from src.mlproject.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
 from src.mlproject.constants import *
 
 from src.mlproject.utils.common import read_yaml,create_directory
@@ -64,3 +64,26 @@ class ConfigManager:
         )
         
         return get_data_validation
+    
+    
+    def DataTransformationManager(self) -> DataTransformationConfig:
+        try:
+            
+            
+            config = self.config.data_transformation
+        
+            create_directory([config.root_dir])
+        
+            logging.info("created root directory")
+            
+            
+            get_data_transformation = DataTransformationConfig(
+                root_dir=config.root_dir,
+                data_path=config.data_path
+            )
+            
+            
+            return get_data_transformation
+        
+        except Exception as e:
+            raise CustomException(e,sys)
