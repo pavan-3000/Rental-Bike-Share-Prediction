@@ -6,3 +6,9 @@ data_ingestion:
  source_URL: https://drive.google.com/file/d/1vSKBeu6iWGDHbUj39pfgpmbRj74TQp5D/view?usp=sharing
  local_data_file: artifacts/data_ingestion/data.zip
  unzip_data: artifacts/data_ingestion
+
+
+data_validation:
+ root_dir: artifacts/data_validation
+ data_path: artifacts/data_ingestion/hour.csv
+ STATUS_INFO: artifacts/data_validation/status.txt

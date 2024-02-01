@@ -9,3 +9,10 @@ class DataIngestionConfig:
     source_URL: str
     local_data_file: Path
     unzip_path: Path
+
+@dataclass
+class DataValidationConfig:
+    root_dir: Path
+    data_path: Path
+    STATUS_INFO: str
+    all_schema: list

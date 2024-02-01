@@ -2,7 +2,7 @@ from src.mlproject.logger import logging
 from src.mlproject.exception import CustomException
 import sys
 
-from src.mlproject.entity.config_entity import DataIngestionConfig
+from src.mlproject.entity.config_entity import DataIngestionConfig,DataValidationConfig
 from src.mlproject.constants import *
 
 from src.mlproject.utils.common import read_yaml,create_directory
@@ -48,3 +48,19 @@ class ConfigManager:
             
         except Exception as e:
             raise CustomException(e,sys)
+        
+        
+    def DataValidationManager(self) -> DataValidationConfig:
+        config = self.config.data_validation
+        schema = self.schema.COLUMNS_NAMES
+        
+        create_directory([config.root_dir])
+        
+        get_data_validation = DataValidationConfig(        
+            root_dir = config.root_dir,
+            data_path = config.data_path,
+            STATUS_INFO = config.STATUS_INFO,
+            all_schema = schema
+        )
+        
+        return get_data_validation
