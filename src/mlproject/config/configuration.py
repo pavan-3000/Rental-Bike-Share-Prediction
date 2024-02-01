@@ -2,7 +2,7 @@ from src.mlproject.logger import logging
 from src.mlproject.exception import CustomException
 import sys
 
-from src.mlproject.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
+from src.mlproject.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelEvalutionConfig
 from src.mlproject.constants import *
 
 from src.mlproject.utils.common import read_yaml,create_directory
@@ -85,5 +85,50 @@ class ConfigManager:
             
             return get_data_transformation
         
+        except Exception as e:
+            raise CustomException(e,sys)
+        
+    def ModelTrainerManager(self) -> ModelTrainerConfig:
+        try:
+            config = self.config.model_trainer
+            schema = self.schema.TARGET_NAME
+            
+            create_directory([config.root_dir])
+            
+            get_model_trainer = ModelTrainerConfig(
+                root_dir=config.root_dir,
+                train_data_path=config.train_data_path,
+                test_data_path=config.test_data_path,
+                model_name=config.model_name,
+                TARGET_NAME = schema.name
+            )
+            
+            
+            return get_model_trainer
+            
+            
+            
+            
+        except Exception as e:
+            raise CustomException(e,sys)
+        
+        
+    def ModelEvalutionManager(self) -> ModelEvalutionConfig:
+        try:
+            config = self.config.model_evalution
+            schema  = self.schema.TARGET_NAME
+            
+            create_directory([config.root_dir])
+            
+            get_model_evalution = ModelEvalutionConfig(
+                root_dir=config.root_dir,
+                test_data_path=config.test_data_path,
+                model_path=config.model_path,
+                metric_file_name=config.metric_file_name,
+                target_name=schema.name
+            )
+            
+            return get_model_evalution
+            
         except Exception as e:
             raise CustomException(e,sys)

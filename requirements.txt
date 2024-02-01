@@ -10,4 +10,5 @@ types-pyYAML
 Flask
 Flask-Cors
 gdown
+xgboost
 -e .
