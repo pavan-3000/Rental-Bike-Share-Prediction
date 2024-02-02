@@ -109,6 +109,30 @@ pip install -r requirements.txt
   <img src="https://lh5.googleusercontent.com/49NljwFVuPL1zR5z6rrBsLh8fEQBDTLCmG9Z9xScq1sLWdtR89KhtKS702hUDN566WIE42eems8Fb_y0jbb6N7Cv-noJ_W3pt7JDlblCE_0POna1AUAZ6aSNERqPC9nfMFrXL8g"/>
   
   
+
+ ## RUN STEPS
+
+ To Create Conda VM 
+```
+conda create -p venv python = Python3.12.1 -y
+```
+ To Activate VM In bash
+``` 
+source activate venv/
+```
+
+
+ To run the full code
+```
+python main.py
+```
+
+To run local web Application
+```
+python app.py
+```
+
+
   <br><br><br>
   ### Thanks & Regards
   ### Pavan
