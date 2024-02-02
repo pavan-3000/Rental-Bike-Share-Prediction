@@ -8,7 +8,9 @@ ensure
 joblib
 types-pyYAML
 Flask
+mlflow
 Flask-Cors
 gdown
+gunicorn
 xgboost
 -e .

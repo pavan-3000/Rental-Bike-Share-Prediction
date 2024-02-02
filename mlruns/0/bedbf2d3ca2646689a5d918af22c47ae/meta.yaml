@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/bedbf2d3ca2646689a5d918af22c47ae/artifacts
+end_time: 1706868526646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bedbf2d3ca2646689a5d918af22c47ae
+run_name: crawling-bug-732
+run_uuid: bedbf2d3ca2646689a5d918af22c47ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706868491160
+status: 3
+tags: []
+user_id: snow

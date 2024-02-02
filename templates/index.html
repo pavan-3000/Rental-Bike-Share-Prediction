@@ -1,1 +1,101 @@
-<h1> welcome to my project </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Rental Data Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="/predict" method="post">
+    <label for="instant">Instant :</label>
+    <input type="text" id="instant" name="instant" required>
+
+    <label for="season">Season :</label>
+    <input type="text" id="season" name="season" required>
+
+    <label for="yr">Year :</label>
+    <input type="text" id="yr" name="yr" required>
+
+    <label for="mnth">Month :</label>
+    <input type="text" id="mnth" name="mnth" required>
+
+    <label for="hr">Hour :</label>
+    <input type="text" id="hr" name="hr" required>
+
+    <label for="holiday">Holiday :</label>
+    <input type="text" id="holiday" name="holiday" required>
+
+    <label for="weekday">Weekday :</label>
+    <input type="text" id="weekday" name="weekday" required>
+
+    <label for="workingday">Working Day :</label>
+    <input type="text" id="workingday" name="workingday" required>
+
+    <label for="weathersit">Weather Situation :</label>
+    <input type="text" id="weathersit" name="weathersit" required>
+
+    <label for="temp">Temperature :</label>
+    <input type="text" id="temp" name="temp" required>
+
+    <label for="atemp">Feels-like Temperature :</label>
+    <input type="text" id="atemp" name="atemp" required>
+
+    <label for="hum">Humidity :</label>
+    <input type="text" id="hum" name="hum" required>
+
+    <label for="windspeed">Wind Speed :</label>
+    <input type="text" id="windspeed" name="windspeed" required>
+
+    <label for="casual">Casual :</label>
+    <input type="text" id="casual" name="casual" required>
+
+    <label for="registered">Registered :</label>
+    <input type="text" id="registered" name="registered" required>
+
+    <button type="submit">Predict</button>
+  </form>
+
+</body>
+</html>

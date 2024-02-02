@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/e348e64730c840e98c2b3fe71d2b89c4/artifacts
+end_time: 1706872060692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e348e64730c840e98c2b3fe71d2b89c4
+run_name: resilient-fox-800
+run_uuid: e348e64730c840e98c2b3fe71d2b89c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706872037173
+status: 3
+tags: []
+user_id: snow

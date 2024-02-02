@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/0a344f85bfd148a6ac7fc6bebdd12089/artifacts
+end_time: 1706871668131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a344f85bfd148a6ac7fc6bebdd12089
+run_name: trusting-shad-757
+run_uuid: 0a344f85bfd148a6ac7fc6bebdd12089
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706871640328
+status: 3
+tags: []
+user_id: snow

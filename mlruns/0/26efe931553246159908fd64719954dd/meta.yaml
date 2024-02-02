@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/26efe931553246159908fd64719954dd/artifacts
+end_time: 1706870147482
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26efe931553246159908fd64719954dd
+run_name: youthful-midge-739
+run_uuid: 26efe931553246159908fd64719954dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706870103021
+status: 3
+tags: []
+user_id: snow

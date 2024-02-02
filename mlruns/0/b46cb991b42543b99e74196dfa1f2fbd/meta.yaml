@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/b46cb991b42543b99e74196dfa1f2fbd/artifacts
+end_time: 1706862497415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b46cb991b42543b99e74196dfa1f2fbd
+run_name: carefree-lark-967
+run_uuid: b46cb991b42543b99e74196dfa1f2fbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706862319694
+status: 3
+tags: []
+user_id: snow

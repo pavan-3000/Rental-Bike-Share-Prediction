@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/f72fb26113374e439c6911f6c5b98dc8/artifacts
+end_time: 1706869861813
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f72fb26113374e439c6911f6c5b98dc8
+run_name: unequaled-rat-892
+run_uuid: f72fb26113374e439c6911f6c5b98dc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706869861760
+status: 4
+tags: []
+user_id: snow
