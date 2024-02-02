@@ -16,7 +16,7 @@
 <br>
 
 ## About project
-Insurance Premium Prediction is a Machine Learning Project that predicts Insurance premium prices based on some Input data.
+Rental bike share Prediction is a Machine Learning Project that predicts CNT based on some Input data.
 
 <br>
 
@@ -34,9 +34,8 @@ This project is created with below technologies/tools/resources:
 
 ## Software and account Requirement
 1. [Github Account](https://github.com/)
-2. [Streamlit Account](https://streamlit.io/cloud)
-3. [VS Code IDE](https://code.visualstudio.com/download)
-4. [GIT CLI](https://git-scm.com/downloads)
+2. [VS Code IDE](https://code.visualstudio.com/download)
+3. [GIT CLI](https://git-scm.com/downloads)
 
 <br>
 
@@ -58,7 +57,7 @@ pip install -r requirements.txt
 ## Project Architecture
 
 <p align="center">
-  <img src="https://github.com/Ambarish-224/Insurance-Prediction-Project/blob/main/Dataset/Project%20Architecture.drawio.png"/>
+  <img src="https://github.com/pavan-3000/Rental-Bike-Share-Prediction/blob/main/61375MLOps_3.png/>
 
 
 <br><br>
