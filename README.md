@@ -60,9 +60,10 @@ pip install -r requirements.txt
   <img src="https://github.com/pavan-3000/Rental-Bike-Share-Prediction/blob/main/61375MLOps_3.png/>
 
 
-<br><br>
+<br>
 
 ## Project Pipeline
+
 1. [Data Ingestion](#1-data-ingestion)
 2. [Data Validation](#2-data-validation)
 3. [Data Transformation](#3-data-transformation)
