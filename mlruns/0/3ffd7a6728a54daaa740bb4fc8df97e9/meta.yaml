@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/3ffd7a6728a54daaa740bb4fc8df97e9/artifacts
+end_time: 1706939290146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ffd7a6728a54daaa740bb4fc8df97e9
+run_name: glamorous-foal-358
+run_uuid: 3ffd7a6728a54daaa740bb4fc8df97e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939270202
+status: 3
+tags: []
+user_id: snow

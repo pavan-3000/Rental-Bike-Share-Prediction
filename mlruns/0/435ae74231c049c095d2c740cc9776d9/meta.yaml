@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/435ae74231c049c095d2c740cc9776d9/artifacts
+end_time: 1706940086837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 435ae74231c049c095d2c740cc9776d9
+run_name: big-zebra-20
+run_uuid: 435ae74231c049c095d2c740cc9776d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939988588
+status: 3
+tags: []
+user_id: snow

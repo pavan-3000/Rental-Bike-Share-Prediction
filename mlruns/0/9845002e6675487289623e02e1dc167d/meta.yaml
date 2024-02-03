@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/9845002e6675487289623e02e1dc167d/artifacts
+end_time: 1706939559684
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9845002e6675487289623e02e1dc167d
+run_name: legendary-vole-633
+run_uuid: 9845002e6675487289623e02e1dc167d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939539113
+status: 3
+tags: []
+user_id: snow

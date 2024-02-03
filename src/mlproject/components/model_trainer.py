@@ -46,8 +46,11 @@ class ModelTrainer:
                     model.fit(x_train,y_train)
                     mlflow.sklearn.log_model(model,"MLFLOW_MODEL")
             
+            for name, model in self.models:
+                joblib.dump(model, os.path.join(self.config.root_dir, f"{self.config.model_name}_{name}.joblib"))
             joblib.dump(self.models,os.path.join(self.config.root_dir,self.config.model_name))
-            
             
         except Exception as e:
             raise CustomException(e,sys)
+        finally:
+            mlflow.end_run()

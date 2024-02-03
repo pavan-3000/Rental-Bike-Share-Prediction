@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/7fccd1a2ccea4d18bcf05138b52462aa/artifacts
+end_time: 1706939429081
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fccd1a2ccea4d18bcf05138b52462aa
+run_name: handsome-finch-841
+run_uuid: 7fccd1a2ccea4d18bcf05138b52462aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939406140
+status: 3
+tags: []
+user_id: snow

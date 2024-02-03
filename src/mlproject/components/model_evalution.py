@@ -9,6 +9,7 @@ import joblib
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from src.mlproject.utils.common import save_json
 from pathlib import Path
+import mlflow
 
 class ModelEvalution:
     def __init__(self, config: ModelEvalutionConfig):
@@ -22,6 +23,8 @@ class ModelEvalution:
 
     def save_score(self):
         try:
+            mlflow.start_run()  # Start a new MLflow run
+
             test = pd.read_csv(self.config.test_data_path)
             models = joblib.load(self.config.model_path)
 
@@ -34,9 +37,17 @@ class ModelEvalution:
                 # Evaluate metrics
                 (mse, mae, r2) = self.evaluate_metric(y_test, predictions)
 
+                # Log metrics to MLflow
+                mlflow.log_metric(f"{name}_mse", mse)
+                mlflow.log_metric(f"{name}_mae", mae)
+                mlflow.log_metric(f"{name}_r2", r2)
+
                 # Save scores with model name
                 score = {"model_name": name, "mse": mse, "mae": mae, "r2": r2}
                 save_json(path=Path(f"{self.config.metric_file_name}_{name}.json"), data=score)
 
+
         except Exception as e:
             raise CustomException(e, sys)
+        finally:
+            mlflow.end_run()

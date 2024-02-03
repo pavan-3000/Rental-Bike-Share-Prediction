@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/15bc8e9668fa43f0acab4d85f3cfb2bb/artifacts
+end_time: 1706933277030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15bc8e9668fa43f0acab4d85f3cfb2bb
+run_name: gregarious-crane-296
+run_uuid: 15bc8e9668fa43f0acab4d85f3cfb2bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706933195537
+status: 3
+tags: []
+user_id: snow

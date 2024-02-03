@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/2e3a2701d56d464fad5cd9c971096f3e/artifacts
+end_time: 1706938446900
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e3a2701d56d464fad5cd9c971096f3e
+run_name: chill-cat-723
+run_uuid: 2e3a2701d56d464fad5cd9c971096f3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706938385164
+status: 3
+tags: []
+user_id: snow

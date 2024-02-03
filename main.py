@@ -7,7 +7,7 @@ from src.mlproject.pipeline.data_transformation_pipeline import DataTransformati
 from src.mlproject.pipeline.model_trainer_pipeline import ModelTrainerPipeline
 from src.mlproject.pipeline.model_evalution_pipeline import ModelEvalutionPipeline
 
-"""
+
 try:
     logging.info(' data ingestion as stared')
     ingestion_obj = DataIngestionPipeline()
@@ -41,7 +41,7 @@ try:
 except Exception as e:
     raise CustomException(e,sys)
 
-"""
+
 
 
 

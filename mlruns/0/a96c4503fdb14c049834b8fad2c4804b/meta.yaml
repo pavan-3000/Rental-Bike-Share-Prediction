@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/a96c4503fdb14c049834b8fad2c4804b/artifacts
+end_time: 1706933355622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a96c4503fdb14c049834b8fad2c4804b
+run_name: salty-calf-653
+run_uuid: a96c4503fdb14c049834b8fad2c4804b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706933324147
+status: 3
+tags: []
+user_id: snow

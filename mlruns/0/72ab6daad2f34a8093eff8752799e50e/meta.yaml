@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/72ab6daad2f34a8093eff8752799e50e/artifacts
+end_time: 1706939430489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72ab6daad2f34a8093eff8752799e50e
+run_name: bedecked-fowl-241
+run_uuid: 72ab6daad2f34a8093eff8752799e50e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939430248
+status: 3
+tags: []
+user_id: snow

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/2d86c28bcdc64ffab5b65ee96d96ff14/artifacts
+end_time: 1706940089161
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d86c28bcdc64ffab5b65ee96d96ff14
+run_name: invincible-jay-299
+run_uuid: 2d86c28bcdc64ffab5b65ee96d96ff14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706940087765
+status: 3
+tags: []
+user_id: snow

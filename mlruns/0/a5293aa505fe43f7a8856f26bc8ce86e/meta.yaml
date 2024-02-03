@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snow/Pictures/Rental-Bike-Share-Prediction/mlruns/0/a5293aa505fe43f7a8856f26bc8ce86e/artifacts
+end_time: 1706939229419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5293aa505fe43f7a8856f26bc8ce86e
+run_name: vaunted-crow-933
+run_uuid: a5293aa505fe43f7a8856f26bc8ce86e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706939206029
+status: 3
+tags: []
+user_id: snow
